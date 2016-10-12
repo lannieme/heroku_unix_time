@@ -1,1 +1,1 @@
-web: python home.py $PORT
+web: gunicorn home:app --log-file -
